@@ -7,7 +7,7 @@ Device: **STM32H563ZITx**
 System Core Clock: **250 MHz**
 
 This setup is configured using **STM32CubeMX**, an interactive tool provided by STMicroelectronics for device configuration.
-Refer to ["Configure STM32 Devices with CubeMX"](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md) for additional information.
+Refer to ["Configure STM32 Devices with CubeMX"](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/) for additional information.
 
 ### System Configuration
 
@@ -35,7 +35,7 @@ Refer to ["Configure STM32 Devices with CubeMX"](https://github.com/Open-CMSIS-P
 | Driver_USBD0          | USB_OTG_FS            | User USB connector (CN13)                     | CMSIS_USB_Device
 | CMSIS-Driver VIO      | GPIO                  | LEDs (LD3, LD1, LD2) and USER button (B1)     | CMSIS_VIO
 
-Reference to [Arduino UNO connector description](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/ReferenceApplications.md#arduino-shield).
+Reference to [Arduino UNO connector description](https://open-cmsis-pack.github.io/cmsis-toolbox/ReferenceApplications/#arduino-shield).
 
 ### CMSIS-Driver Virtual I/O mapping
 
