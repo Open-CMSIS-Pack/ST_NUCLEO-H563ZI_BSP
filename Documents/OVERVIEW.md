@@ -2,7 +2,7 @@
 
 The **STMicroelectronics NUCLEO-H563ZI Board Support Pack (BSP)**:
 
-- Contains examples in *csolution format* for usage with the [CMSIS-Toolbox](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/README.md) and the  [VS Code CMSIS Solution](https://marketplace.visualstudio.com/items?itemName=Arm.cmsis-csolution) extension.
+- Contains examples in *csolution format* for usage with the [CMSIS-Toolbox](https://open-cmsis-pack.github.io/cmsis-toolbox/) and the  [VS Code CMSIS Solution](https://marketplace.visualstudio.com/items?itemName=Arm.cmsis-csolution) extension.
 - Requires the [Device Family Pack (DFP) for the STM32H5 series](https://www.keil.arm.com/packs/stm32h5xx_dfp-keil).
 - Is configured with [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) for the Arm Compiler 6 (MDK). [Using GCC Compiler](#using-gcc-compiler) explains how to configured it for a different compiler.
 
@@ -10,7 +10,7 @@ The **STMicroelectronics NUCLEO-H563ZI Board Support Pack (BSP)**:
 
 - [Examples/Blinky](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-H563ZI_BSP/tree/main/Examples/Blinky) shows the basic usage of this board.
 
-- [Board Layer](https://github.com/Open-CMSIS-Pack/ST_NUCLEO_H563ZI_BSP/tree/main/Layers/Default) for device-agnostic [Reference Applications](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/ReferenceApplications.md) that implements these API interfaces:
+- [Board Layer](https://github.com/Open-CMSIS-Pack/ST_NUCLEO_H563ZI_BSP/tree/main/Layers/Default) for device-agnostic [Reference Applications](https://open-cmsis-pack.github.io/cmsis-toolbox/ReferenceApplications/) that implements these API interfaces:
 
 | Provided API Interface        | Description
 |:------------------------------|:------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ The **STMicroelectronics NUCLEO-H563ZI Board Support Pack (BSP)**:
 
 ## Using GCC Compiler
 
-By default the [Board Layers](https://github.com/Open-CMSIS-Pack/ST_NUCLEO_H563ZI_BSP/tree/main/Layers) are configured for the Arm Compiler 6 (AC6). Using STM32CubeMX it can be reconfigured for a different compiler. To configure it for the GCC compiler execute these steps:
+By default the [Board Layers](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-H563ZI_BSP/tree/main/Layers/Default) are configured for the Arm Compiler 6 (AC6). Using STM32CubeMX it can be reconfigured for a different compiler. To configure it for the GCC compiler execute these steps:
 
 - In the `<solution_name>.csolution.yml` project file select `compiler: GCC`.
 - Launch the STM32CubeMX generator with this CMSIS-Toolbox command:
