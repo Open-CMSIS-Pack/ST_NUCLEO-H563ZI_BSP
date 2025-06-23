@@ -84,7 +84,7 @@ jobs:
         run: |
           if [ -e ./.ci/MW-RefApps/Examples/${{ matrix.solution.dir }}/${{ matrix.solution.name }}.csolution.yml ]
           then
-             cp -rf ./.ci/MW-RefApps/Examples/${{ matrix.solution.dir }}/${{ matrix.solution.name }}.csolution.yml ./CI/MW-RefApps/Examples/${{ matrix.solution.dir }}/${{ matrix.solution.name }}.csolution.yml
+             cp -f ./.ci/MW-RefApps/Examples/${{ matrix.solution.dir }}/${{ matrix.solution.name }}.csolution.yml ./CI/MW-RefApps/Examples/${{ matrix.solution.dir }}/${{ matrix.solution.name }}.csolution.yml
           fi
 
       - name: Add the board layer to the ${{ matrix.solution.dir }}/${{ matrix.solution.name }}.csolution.yml
