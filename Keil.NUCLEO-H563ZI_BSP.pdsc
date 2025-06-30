@@ -14,15 +14,8 @@
   </licenseSets>
 
   <releases>
-    <release version="1.0.2-dev">
+    <release version="1.1.1-dev">
       Active development ...
-      Blinky project:
-      - specify thread names using thread attributes
-      - rename thread IDs
-      - modify app_main_thread (replace loop forever)
-      - add DWARF-5 debug information
-      - add RTE_Components.h files
-      - add Blinky+NUCLEO-H563ZI.dbgconf and Blinky+NUCLEO-H563ZI.dbgconf.base@1.0.0 files for the Blinky example
     </release>
   </releases>
 
