@@ -26,7 +26,7 @@ The **STMicroelectronics NUCLEO-H563ZI Board Support Pack (BSP)**:
 
 ## Using GCC Compiler
 
-By default the [Board Layers](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-H563ZI_BSP/tree/main/Layers/Default) are configured for the Arm Compiler 6 (AC6). Using STM32CubeMX it can be reconfigured for a different compiler. To configure it for the GCC compiler execute these steps:
+By default the [Board Layers](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-H563ZI_BSP/tree/main/Layers) are configured for the Arm Compiler 6 (AC6). Using STM32CubeMX it can be reconfigured for a different compiler. To configure it for the GCC compiler execute these steps:
 
 - In the `<solution_name>.csolution.yml` project file select `compiler: GCC`.
 - Launch the STM32CubeMX generator with this CMSIS-Toolbox command:

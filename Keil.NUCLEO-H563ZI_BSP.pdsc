@@ -16,6 +16,8 @@
   <releases>
     <release version="1.1.1-dev">
       Active development ...
+      Blinky project:
+      - Updated dbgconf files
     </release>
   </releases>
 
